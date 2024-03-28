@@ -1,0 +1,14 @@
+name: Test 
+
+on:
+  push:
+    branches:
+      - main 
+jobs:
+  Script-test:
+    runs-on: self-hosted
+    steps:
+    - name: SSHTest
+      run: |
+          cd ~ 
+          mkdir Test
