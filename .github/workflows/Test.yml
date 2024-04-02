@@ -11,4 +11,4 @@ jobs:
     - name: SSHTest
       run: |
           cd ~ 
-          mkdir Test2
+          mkdir Test3
